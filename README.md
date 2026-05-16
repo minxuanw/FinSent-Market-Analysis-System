@@ -31,6 +31,9 @@ finsent-market/
 ├── README.md
 ├── requirements.txt
 ├── config.py                 # Configuration constants
+├── run_pipeline.py           # Run the entire process
+├── sp500_analysis.py         # Analysis for SP500 
+├── evaluate_phrasebank.py    # Evaluation for Phrasebank dataset
 ├── data/
 │   ├── raw/                  # Raw downloaded data
 │   └── processed/            # Cleaned & merged data
@@ -66,7 +69,7 @@ streamlit run dashboard/app.py
 # 5. Evaluate phrasebank dataset（optional）
 python evaluate_phrasebank.py
 
-# 5. Analyse sp500 （optional）
+# 6. Analyse SP500 （optional）
 python sp500_analysis.py
 ```
 
