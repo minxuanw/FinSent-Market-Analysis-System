@@ -66,7 +66,7 @@ streamlit run dashboard/app.py
 # 5. Evaluate phrasebank dataset（optional）
 python evaluate_phrasebank.py
 
-# 5. Analyse sp500
+# 5. Analyse sp500 （optional）
 python sp500_analysis.py
 ```
 
