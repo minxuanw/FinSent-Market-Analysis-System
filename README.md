@@ -30,20 +30,21 @@ FinSent-Market is an end-to-end system that collects financial news, applies sen
 finsent-market/
 ├── README.md
 ├── requirements.txt
-├── config.py                 # Configuration constants
-├── run_pipeline.py           # Run the entire process
-├── sp500_analysis.py         # Analysis for SP500 
-├── evaluate_phrasebank.py    # Evaluation for Phrasebank dataset
+├── config.py                   # Configuration constants
+├── run_pipeline.py             # Run the entire process
+├── sp500_analysis.py           # Analysis for SP500
+├── evaluate_phrasebank.py      # Phrasebank evaluation
+├── comprehensive_evaluation.py # Comprehensive evaluation
 ├── data/
-│   ├── raw/                  # Raw downloaded data
-│   └── processed/            # Cleaned & merged data
+│   ├── raw/                    # Raw downloaded data
+│   └── processed/              # Cleaned & merged data
 ├── src/
-│   ├── data_collection/      # News & market data collectors
-│   ├── preprocessing/        # Text cleaning & alignment
-│   ├── sentiment/            # VADER & FinBERT analyzers
-│   ├── analysis/             # Correlation & trend analysis
-│   └── database/             # SQLite database manager
-└── dashboard/                # Streamlit dashboard
+│   ├── data_collection/        # News & market data collectors
+│   ├── preprocessing/          # Text cleaning & alignment
+│   ├── sentiment/              # VADER & FinBERT analyzers
+│   ├── analysis/               # Correlation & trend analysis
+│   └── database/               # SQLite database manager
+└── dashboard/                  # Streamlit dashboard
 ```
 
 ## Quick Start
