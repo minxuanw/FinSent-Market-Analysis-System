@@ -32,6 +32,7 @@ finsent-market/
 ├── requirements.txt
 ├── config.py                   # Configuration constants
 ├── run_pipeline.py             # Run the entire process
+├── .env.example                # Example for Enviroment
 ├── sp500_analysis.py           # Analysis for SP500
 ├── evaluate_phrasebank.py      # Phrasebank evaluation
 ├── comprehensive_evaluation.py # Comprehensive evaluation
