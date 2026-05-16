@@ -62,7 +62,7 @@ venv\Scripts\activate.bat
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Configure the API keys and modify the .env file
+# 3. Configure the API keys and then modify the .env file
 cp .env.example .env
 
 # 4. Run the full pipeline
