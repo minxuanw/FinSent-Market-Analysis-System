@@ -1,0 +1,80 @@
+============================================================
+  FinSent-Market Analysis Report (VADER)
+============================================================
+
+Total daily records: 284
+Tickers analyzed: 11
+Date range: 2026-03-09 00:00:00 → 2026-05-03 00:00:00
+
+--- Correlation Analysis ---
+
+  AAPL (35 days):
+    Sentiment vs Return:     r=0.0954, p=0.6429
+    Sentiment vs Volatility: r=0.3089, p=0.1247
+    Sentiment→Next Return:   r=0.1071, p=0.6103
+    Avg sentiment (big up days):   0.2047
+    Avg sentiment (big down days): 0.0301
+
+  AMZN (25 days):
+    Sentiment vs Return:     r=0.2856, p=0.2095
+    Sentiment vs Volatility: r=-0.0963, p=0.6778
+    Sentiment→Next Return:   r=0.1384, p=0.5605
+    Avg sentiment (big up days):   0.4635
+    Avg sentiment (big down days): 0.1166
+
+  BAC (26 days):
+    Sentiment vs Return:     r=-0.3076, p=0.2001
+    Sentiment vs Volatility: r=0.2551, p=0.292
+    Sentiment→Next Return:   r=0.3834, p=0.1163
+    Avg sentiment (big up days):   0.1956
+    Avg sentiment (big down days): 0.5292
+
+  GOOGL (29 days):
+    Sentiment vs Return:     r=-0.4371, p=0.0539
+    Sentiment vs Volatility: r=-0.1831, p=0.4397
+    Sentiment→Next Return:   r=0.0932, p=0.7042
+    Avg sentiment (big up days):   -0.0288
+    Avg sentiment (big down days): 0.4465
+
+  MSFT (28 days):
+    Sentiment vs Return:     r=-0.1819, p=0.4178
+    Sentiment vs Volatility: r=-0.3636, p=0.0962
+    Sentiment→Next Return:   r=-0.1202, p=0.6037
+    Avg sentiment (big up days):   0.131
+    Avg sentiment (big down days): 0.0589
+
+  NVDA (34 days):
+    Sentiment vs Return:     r=0.4344, p=0.0339
+    Sentiment vs Volatility: r=-0.0828, p=0.7005
+    Sentiment→Next Return:   r=-0.0652, p=0.7674
+    Avg sentiment (big up days):   0.4782
+    Avg sentiment (big down days): -0.2397
+
+  TSLA (33 days):
+    Sentiment vs Return:     r=0.5916, p=0.0018
+    Sentiment vs Volatility: r=0.0427, p=0.8392
+    Sentiment→Next Return:   r=0.1763, p=0.4099
+    Avg sentiment (big up days):   0.2344
+    Avg sentiment (big down days): -0.4153
+
+  JPM (29 days):
+    Sentiment vs Return:     r=-0.1907, p=0.3834
+    Sentiment vs Volatility: r=0.2539, p=0.2424
+    Sentiment→Next Return:   r=-0.3514, p=0.1088
+    Avg sentiment (big up days):   0.1338
+    Avg sentiment (big down days): 0.4486
+
+  XOM (24 days):
+    Sentiment vs Return:     r=0.0939, p=0.711
+    Sentiment vs Volatility: r=0.063, p=0.804
+    Sentiment→Next Return:   r=0.2769, p=0.282
+    Avg sentiment (big up days):   0.1357
+
+  META (20 days):
+    Sentiment vs Return:     r=0.375, p=0.2068
+    Sentiment vs Volatility: r=-0.389, p=0.189
+    Sentiment→Next Return:   r=-0.0067, p=0.9836
+    Avg sentiment (big up days):   0.1905
+    Avg sentiment (big down days): -0.1272
+
+============================================================

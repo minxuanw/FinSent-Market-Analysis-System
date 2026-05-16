@@ -1,0 +1,39 @@
+{
+  "news_articles": {
+    "total": 2787,
+    "date_range": [
+      "2026-03-09T02:30:14Z",
+      "2026-05-03 05:25:00"
+    ],
+    "ticker_coverage": {
+      "AAPL": 367,
+      "AMZN": 177,
+      "BAC": 234,
+      "GOOGL": 174,
+      "JPM": 269,
+      "MARKET": 51,
+      "META": 415,
+      "MSFT": 301,
+      "NVDA": 267,
+      "TSLA": 300,
+      "XOM": 232
+    },
+    "missing_tickers": [],
+    "days_since_last": 0
+  },
+  "market_data": {
+    "total": 913,
+    "date_range": [
+      "2026-01-02",
+      "2026-05-01"
+    ]
+  },
+  "sentiment_scores": {
+    "total": 5574
+  },
+  "alignment": {
+    "aligned_days": 38,
+    "total_sentiment_days": 56,
+    "rate_pct": 67.9
+  }
+}

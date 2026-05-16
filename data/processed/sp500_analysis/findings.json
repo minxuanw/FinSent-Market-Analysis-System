@@ -1,0 +1,60 @@
+{
+  "VADER": {
+    "n_observations": 228,
+    "findings": {
+      "sentiment_vs_return": {
+        "pearson_r": -0.0463,
+        "pearson_p": 0.4876,
+        "spearman_r": -0.0324,
+        "spearman_p": 0.6269,
+        "n": 227,
+        "significant": "False"
+      },
+      "sentiment_vs_volatility": {
+        "pearson_r": 0.0051,
+        "pearson_p": 0.9392,
+        "n": 223
+      },
+      "directional_accuracy": 0.4141,
+      "sentiment_big_up_days": 0.162,
+      "sentiment_big_down_days": 0.218,
+      "sentiment_normal_days": 0.164,
+      "n_big_up": 16,
+      "n_big_down": 18,
+      "sentiment_vs_next_return": {
+        "pearson_r": -0.0479,
+        "pearson_p": 0.4726,
+        "n": 227
+      }
+    }
+  },
+  "FinBERT": {
+    "n_observations": 228,
+    "findings": {
+      "sentiment_vs_return": {
+        "pearson_r": -0.0321,
+        "pearson_p": 0.6302,
+        "spearman_r": -0.0706,
+        "spearman_p": 0.2896,
+        "n": 227,
+        "significant": "False"
+      },
+      "sentiment_vs_volatility": {
+        "pearson_r": 0.0931,
+        "pearson_p": 0.1659,
+        "n": 223
+      },
+      "directional_accuracy": 0.489,
+      "sentiment_big_up_days": 0.292,
+      "sentiment_big_down_days": 0.257,
+      "sentiment_normal_days": 0.107,
+      "n_big_up": 16,
+      "n_big_down": 18,
+      "sentiment_vs_next_return": {
+        "pearson_r": -0.1102,
+        "pearson_p": 0.0975,
+        "n": 227
+      }
+    }
+  }
+}
