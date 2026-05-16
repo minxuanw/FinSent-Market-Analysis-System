@@ -51,7 +51,7 @@ finsent-market/
 ## Quick Start
 
 ```bash
-# 1. Create virtual environment(macOS)
+# 1. Create virtual environment(macOS Terminal)
 python3 -m venv venv
 source venv/bin/activate
 
