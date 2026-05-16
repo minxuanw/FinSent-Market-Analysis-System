@@ -61,16 +61,19 @@ venv\Scripts\activate.bat
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Run the full pipeline
+# 3. Configure the API keys and modify the .env file
+cp .env.example .env
+
+# 4. Run the full pipeline
 python run_pipeline.py
 
-# 4. Launch the dashboard
+# 5. Launch the dashboard
 streamlit run dashboard/app.py
 
-# 5. Evaluate phrasebank dataset（optional）
+# 6. Evaluate phrasebank dataset（optional）
 python evaluate_phrasebank.py
 
-# 6. Analyse SP500 （optional）
+# 7. Analyse SP500 （optional）
 python sp500_analysis.py
 ```
 
