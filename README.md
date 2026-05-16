@@ -50,6 +50,10 @@ finsent-market/
 python3 -m venv venv
 source venv/bin/activate
 
+# 1. Create virtual environment(windows Command Prompt)
+python -m venv venv
+venv\Scripts\activate.bat
+
 # 2. Install dependencies
 pip install -r requirements.txt
 
@@ -58,6 +62,12 @@ python run_pipeline.py
 
 # 4. Launch the dashboard
 streamlit run dashboard/app.py
+
+# 5. Evaluate phrasebank dataset（optional）
+python evaluate_phrasebank.py
+
+# 5. Analyse sp500
+python sp500_analysis.py
 ```
 
 ## Data Sources
