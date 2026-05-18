@@ -19,10 +19,10 @@ FinSent-Market is an end-to-end system that collects financial news, applies sen
 └─────────────┘   └──────────────┘    └──────────────┘    └────────────┘
                                                                 │
                         ┌──────────────┐                        ▼
-                        │   SQLite DB  │◀──────────────┌──────────────┐
-                        └──────────────┘                │  Dashboard  │
-                                                        │  (Streamlit)│
-                                                        └─────────────┘
+                        │   SQLite DB  │◀────────────── ┌──────────────┐
+                        └──────────────┘                 │  Dashboard   │
+                                                         │  (Streamlit) │
+                                                         └──────────────┘
 ```
 
 ## Project Structure
