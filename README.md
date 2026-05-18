@@ -13,16 +13,16 @@ FinSent-Market is an end-to-end system that collects financial news, applies sen
 ## Architecture
 
 ```
-┌─────────────┐   ┌──────────────┐   ┌─────────────┐   ┌────────────┐
-│  News Data   │──▶│  Preprocess  │──▶│  Sentiment   │──▶│  Analysis  │
-│  Market Data │   │  & Clean     │   │  VADER/FinBERT│  │  Correlation│
-└─────────────┘   └──────────────┘   └─────────────┘   └────────────┘
+┌─────────────┐   ┌──────────────┐    ┌──────────────┐    ┌────────────┐
+│  News Data  │──▶│  Preprocess  │──▶│  Sentiment   │──▶│  Analysis  │
+│  Market Data│   │  & Clean     │    │ VADER/FinBERT│    │ Correlation│
+└─────────────┘   └──────────────┘    └──────────────┘    └────────────┘
                                                                 │
                         ┌──────────────┐                        ▼
-                        │   SQLite DB  │◀──────────────┌────────────┐
-                        └──────────────┘               │  Dashboard  │
-                                                      │  (Streamlit)│
-                                                      └────────────┘
+                        │   SQLite DB  │◀──────────────┌──────────────┐
+                        └──────────────┘                │  Dashboard  │
+                                                        │  (Streamlit)│
+                                                        └─────────────┘
 ```
 
 ## Project Structure
