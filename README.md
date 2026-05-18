@@ -3,6 +3,7 @@
 > A Financial News Sentiment Analytics Pipeline for Market Insight
 
 **Author:** Minxuan Wang
+
 **Supervisor:** Anu Mathrani
 
 ## Overview
