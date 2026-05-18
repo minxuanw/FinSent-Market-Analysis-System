@@ -35,8 +35,9 @@ finsent-market/
 ├── .env.example                # Example for enviroment
 ├── sp500_analysis.py           # Analysis for SP500
 ├── evaluate_phrasebank.py      # Phrasebank evaluation
-├── comprehensive_evaluation.py # Comprehensive evaluation
+├── comprehensive_evaluation.py # Full evaluation suite
 ├── data/
+│   ├── finsent.db              # SQLite database
 │   ├── raw/                    # Raw downloaded data
 │   └── processed/              # Cleaned & merged data
 ├── src/
